@@ -85,7 +85,6 @@ extension Array {
 // Flattening Map
 
 extension Array {
-
   func flatMap<T>(_ transform: (Element) -> [T]) -> [T] {
     var result: [T] = []
     for x in self {
@@ -105,5 +104,20 @@ let r1 = suits.flatMap { suit in
 
 print(r1)
 
+// Sets
 
-// For each
+extension Sequence where Element:Hashable {
+  func unique() -> [Element] {
+    var seen: Set<Element> = []
+    return filter { element in
+      if seen.contains(element) {
+        return false
+      } else {
+        seen.insert(element)
+        return true
+      }
+    }
+  }
+}
+
+print([1,2,3,12,1,3,4,5,6,4,6].unique())
