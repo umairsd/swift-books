@@ -62,7 +62,7 @@ print(sum)
 // Use Reduce to implement map
 
 extension Array {
-  func map2<T>(_ transform: Element -> T) -> [T] {
+  func map2<T>(_ transform: (Element) -> T) -> [T] {
     return reduce([]) {
       $0 + [transform($1)]
     }
@@ -72,7 +72,7 @@ extension Array {
 // Use Reduce to implement filter (O(N))
 
 extension Array {
-  func filter3<T>(_ isIncluded: Element -> Bool) -> [Element] {
+  func filter3(_ isIncluded: (Element) -> Bool) -> [Element] {
     return reduce(into: []) { (result, element) in
       if isIncluded(element) {
         result.append(element)
@@ -81,4 +81,4 @@ extension Array {
   }
 }
 
-//
+
