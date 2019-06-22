@@ -82,3 +82,28 @@ extension Array {
 }
 
 
+// Flattening Map
+
+extension Array {
+
+  func flatMap<T>(_ transform: (Element) -> [T]) -> [T] {
+    var result: [T] = []
+    for x in self {
+      result.append(contentsOf: transform(x))
+    }
+    return result
+  }
+}
+
+let suits = ["♠︎", "♥︎", "♣︎", "♦︎"]
+let ranks = ["J", "Q", "K", "A"]
+let r1 = suits.flatMap { suit in
+  ranks.map { rank in
+    (suit, rank)
+  }
+}
+
+print(r1)
+
+
+// For each
