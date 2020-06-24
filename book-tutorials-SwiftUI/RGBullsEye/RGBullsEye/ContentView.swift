@@ -10,6 +10,8 @@ struct ContentView: View {
   @State var greenGuess: Double
   @State var blueGuess: Double
 
+  @State var showAlert = false
+
   var body: some View {
     VStack {
       HStack {
@@ -23,17 +25,31 @@ struct ContentView: View {
         }
       }
 
-      Button(action: {}) {
+      Button(action: {
+        self.showAlert = true
+      }) {
         Text("Hit me!")
       }
+      .alert(isPresented: $showAlert) { () -> Alert in
+        Alert(title: Text("Your score"), message: Text(String(computeScore())))
+      }
+      .padding()
 
       ColorSlider(value: $redGuess, textColor: .red)
       ColorSlider(value: $greenGuess, textColor: .green)
       ColorSlider(value: $blueGuess, textColor: .blue)
-
     }
   }
 
+
+  func computeScore() -> Int {
+    let redDiff = redGuess - redTarget
+    let greenDiff = greenGuess - greenTarget
+    let blueDiff = blueGuess - blueTarget
+
+    let diff = sqrt((redDiff * redDiff + greenDiff * greenDiff + blueDiff * blueDiff) / 3.0)
+    return lround((1.0 - diff) * 100)
+  }
 }
 
 struct ContentView_Previews: PreviewProvider {
@@ -55,6 +71,7 @@ struct ColorSlider: View {
       Slider(value: $value)
       Text("255")
         .foregroundColor(textColor)
-    }.padding(.horizontal)
+    }
+    .padding(.horizontal)
   }
 }
