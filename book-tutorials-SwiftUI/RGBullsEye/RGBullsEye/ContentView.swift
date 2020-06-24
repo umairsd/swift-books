@@ -1,11 +1,3 @@
-//
-//  ContentView.swift
-//  RGBullsEye
-//
-//  Created by Umair Saeed on 6/23/20.
-//  Copyright © 2020 Umair Saeed. All rights reserved.
-//
-
 import SwiftUI
 
 struct ContentView: View {
