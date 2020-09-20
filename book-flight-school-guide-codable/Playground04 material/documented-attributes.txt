@@ -1,0 +1,12 @@
+*censoredName
+*explicitness
+*viewURL
+artistName
+artworkUrl100
+artworkUrl60
+collectionName
+kind
+previewUrl
+trackName
+trackTimeMillis
+wrapperType
