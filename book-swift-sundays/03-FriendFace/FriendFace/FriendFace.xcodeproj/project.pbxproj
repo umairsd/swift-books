@@ -15,6 +15,8 @@
 		80398C73251AEC9600399442 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80398C71251AEC9600399442 /* LaunchScreen.storyboard */; };
 		80398C7C251AED2C00399442 /* Friend.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80398C7B251AED2C00399442 /* Friend.swift */; };
 		80398C7E251AED6D00399442 /* Connection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80398C7D251AED6D00399442 /* Connection.swift */; };
+		80398C81251AF2B200399442 /* JSONDecoderRemote.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80398C80251AF2B200399442 /* JSONDecoderRemote.swift */; };
+		80398C83251AF46F00399442 /* FriendDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80398C82251AF46F00399442 /* FriendDataSource.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +30,8 @@
 		80398C74251AEC9600399442 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		80398C7B251AED2C00399442 /* Friend.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Friend.swift; sourceTree = "<group>"; };
 		80398C7D251AED6D00399442 /* Connection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Connection.swift; sourceTree = "<group>"; };
+		80398C80251AF2B200399442 /* JSONDecoderRemote.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONDecoderRemote.swift; sourceTree = "<group>"; };
+		80398C82251AF46F00399442 /* FriendDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendDataSource.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,7 @@
 		80398C65251AEC9300399442 /* FriendFace */ = {
 			isa = PBXGroup;
 			children = (
+				80398C7F251AF29900399442 /* Manager */,
 				80398C7A251AED1B00399442 /* Model */,
 				80398C66251AEC9300399442 /* AppDelegate.swift */,
 				80398C68251AEC9300399442 /* SceneDelegate.swift */,
@@ -68,6 +73,8 @@
 				80398C6F251AEC9600399442 /* Assets.xcassets */,
 				80398C71251AEC9600399442 /* LaunchScreen.storyboard */,
 				80398C74251AEC9600399442 /* Info.plist */,
+				80398C80251AF2B200399442 /* JSONDecoderRemote.swift */,
+				80398C82251AF46F00399442 /* FriendDataSource.swift */,
 			);
 			path = FriendFace;
 			sourceTree = "<group>";
@@ -79,6 +86,13 @@
 				80398C7D251AED6D00399442 /* Connection.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		80398C7F251AF29900399442 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Manager;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -152,9 +166,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				80398C81251AF2B200399442 /* JSONDecoderRemote.swift in Sources */,
 				80398C6B251AEC9300399442 /* ViewController.swift in Sources */,
 				80398C67251AEC9300399442 /* AppDelegate.swift in Sources */,
 				80398C7E251AED6D00399442 /* Connection.swift in Sources */,
+				80398C83251AF46F00399442 /* FriendDataSource.swift in Sources */,
 				80398C69251AEC9300399442 /* SceneDelegate.swift in Sources */,
 				80398C7C251AED2C00399442 /* Friend.swift in Sources */,
 			);
