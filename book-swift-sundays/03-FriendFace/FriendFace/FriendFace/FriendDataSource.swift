@@ -1,10 +1,17 @@
 import UIKit
 
-class FriendDataSrouce: NSObject, UITableViewDataSource, UISearchResultsUpdating {
+class FriendDataSrouce: NSObject, UITableViewDataSource {
 
   var friends = [Friend]()
   var filteredFriends = [Friend]()
   var dataChanged: (() -> Void)?
+
+  var filterText: String? {
+    didSet {
+      filteredFriends = friends.matching(filterText)
+      dataChanged?()
+    }
+  }
 
   func fetchData() {
     let decoder = JSONDecoder()
@@ -35,13 +42,6 @@ class FriendDataSrouce: NSObject, UITableViewDataSource, UISearchResultsUpdating
     cell.textLabel?.text = friend.name
     cell.detailTextLabel?.text = friend.printableFriendList
     return cell
-  }
-
-  // MARK: - UISearchController
-
-  func updateSearchResults(for searchController: UISearchController) {
-    filteredFriends = friends.matching(searchController.searchBar.text)
-    self.dataChanged?()
   }
 
 }

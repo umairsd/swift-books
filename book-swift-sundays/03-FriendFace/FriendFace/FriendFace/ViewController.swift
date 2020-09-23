@@ -11,7 +11,7 @@ class ViewController: UITableViewController {
 
     // Search
     let search = UISearchController(searchResultsController: nil)
-    search.searchResultsUpdater = dataSource
+    search.searchResultsUpdater = self
     search.obscuresBackgroundDuringPresentation = false
     search.searchBar.placeholder = "Find a friend"
     navigationItem.searchController = search
@@ -22,4 +22,13 @@ class ViewController: UITableViewController {
     dataSource.fetchData()
     tableView.dataSource = dataSource
   }
+
+}
+
+extension ViewController: UISearchResultsUpdating {
+
+  func updateSearchResults(for searchController: UISearchController) {
+    dataSource.filterText = searchController.searchBar.text
+  }
+
 }
