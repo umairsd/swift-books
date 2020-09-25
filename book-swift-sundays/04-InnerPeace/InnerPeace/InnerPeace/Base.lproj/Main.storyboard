@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="ipad10_2" orientation="portrait" layout="fullscreen" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16086"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="InnerPeace" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="810" height="1080"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="aM6-Hg-TWU">
+                                <rect key="frame" x="0.0" y="0.0" width="810" height="1080"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="ryc-Dx-FUY">
+                                <rect key="frame" x="0.0" y="0.0" width="810" height="1080"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="ryc-Dx-FUY" firstAttribute="top" secondItem="ug1-ao-ou4" secondAttribute="top" id="G3T-yP-EuM"/>
+                            <constraint firstItem="aM6-Hg-TWU" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="Mn7-uz-bIL"/>
+                            <constraint firstAttribute="trailing" secondItem="aM6-Hg-TWU" secondAttribute="trailing" id="Mtv-We-4be"/>
+                            <constraint firstAttribute="bottom" secondItem="aM6-Hg-TWU" secondAttribute="bottom" id="PGb-jn-6d4"/>
+                            <constraint firstItem="ug1-ao-ou4" firstAttribute="bottom" secondItem="ryc-Dx-FUY" secondAttribute="bottom" id="Rnr-Rg-XLQ"/>
+                            <constraint firstItem="ug1-ao-ou4" firstAttribute="trailing" secondItem="ryc-Dx-FUY" secondAttribute="trailing" id="T7a-DE-bQV"/>
+                            <constraint firstItem="ryc-Dx-FUY" firstAttribute="leading" secondItem="ug1-ao-ou4" secondAttribute="leading" id="c5z-DQ-nq6"/>
+                            <constraint firstItem="aM6-Hg-TWU" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="ffW-4O-SLl"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="ug1-ao-ou4"/>
+                    </view>
+                    <connections>
+                        <outlet property="background" destination="aM6-Hg-TWU" id="bUd-0J-D0x"/>
+                        <outlet property="quote" destination="ryc-Dx-FUY" id="xek-x1-cYE"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="138.5185185185185" y="137.77777777777777"/>
+        </scene>
+    </scenes>
+</document>
