@@ -7,35 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		80A46F8D250EEC5700E82968 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80A46F8C250EEC5700E82968 /* AppDelegate.swift */; };
-		80A46F8F250EEC5700E82968 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80A46F8E250EEC5700E82968 /* SceneDelegate.swift */; };
-		80A46F91250EEC5700E82968 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80A46F90250EEC5700E82968 /* ViewController.swift */; };
-		80A46F94250EEC5700E82968 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80A46F92250EEC5700E82968 /* Main.storyboard */; };
-		80A46F96250EEC5900E82968 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80A46F95250EEC5900E82968 /* Assets.xcassets */; };
-		80A46F99250EEC5900E82968 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80A46F97250EEC5900E82968 /* LaunchScreen.storyboard */; };
-		80A46FA1250EF0F500E82968 /* MemoryItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80A46FA0250EF0F500E82968 /* MemoryItem.swift */; };
-		80A46FA3250EF37600E82968 /* MemoryItems.json in Resources */ = {isa = PBXBuildFile; fileRef = 80A46FA2250EF37500E82968 /* MemoryItems.json */; };
-		80A46FA5250EFD7900E82968 /* MemoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80A46FA4250EFD7900E82968 /* MemoryViewController.swift */; };
-		80A46FA7250F026600E82968 /* MemoryDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80A46FA6250F026600E82968 /* MemoryDataSource.swift */; };
+		8064402025A642F5000467D4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8064401F25A642F5000467D4 /* AppDelegate.swift */; };
+		8064402225A642F5000467D4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8064402125A642F5000467D4 /* SceneDelegate.swift */; };
+		8064402425A642F5000467D4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8064402325A642F5000467D4 /* ViewController.swift */; };
+		8064402725A642F5000467D4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8064402525A642F5000467D4 /* Main.storyboard */; };
+		8064402925A642F5000467D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8064402825A642F5000467D4 /* Assets.xcassets */; };
+		8064402C25A642F5000467D4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8064402A25A642F5000467D4 /* LaunchScreen.storyboard */; };
+		8064403525A64457000467D4 /* MemoryItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8064403425A64457000467D4 /* MemoryItem.swift */; };
+		8064403C25A64522000467D4 /* MemoryItems.json in Resources */ = {isa = PBXBuildFile; fileRef = 8064403B25A64522000467D4 /* MemoryItems.json */; };
+		8064403F25A64669000467D4 /* MemoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8064403E25A64669000467D4 /* MemoryViewController.swift */; };
+		8064404225A64FE4000467D4 /* MemoryDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8064404125A64FE4000467D4 /* MemoryDataSource.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		80A46F89250EEC5700E82968 /* Memorize.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Memorize.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		80A46F8C250EEC5700E82968 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		80A46F8E250EEC5700E82968 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		80A46F90250EEC5700E82968 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		80A46F93250EEC5700E82968 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		80A46F95250EEC5900E82968 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		80A46F98250EEC5900E82968 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		80A46F9A250EEC5900E82968 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		80A46FA0250EF0F500E82968 /* MemoryItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoryItem.swift; sourceTree = "<group>"; };
-		80A46FA2250EF37500E82968 /* MemoryItems.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = MemoryItems.json; sourceTree = "<group>"; };
-		80A46FA4250EFD7900E82968 /* MemoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoryViewController.swift; sourceTree = "<group>"; };
-		80A46FA6250F026600E82968 /* MemoryDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoryDataSource.swift; sourceTree = "<group>"; };
+		8064401C25A642F5000467D4 /* Memorize.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Memorize.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8064401F25A642F5000467D4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8064402125A642F5000467D4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		8064402325A642F5000467D4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8064402625A642F5000467D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8064402825A642F5000467D4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8064402B25A642F5000467D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8064402D25A642F5000467D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8064403425A64457000467D4 /* MemoryItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoryItem.swift; sourceTree = "<group>"; };
+		8064403B25A64522000467D4 /* MemoryItems.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = MemoryItems.json; sourceTree = "<group>"; };
+		8064403E25A64669000467D4 /* MemoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoryViewController.swift; sourceTree = "<group>"; };
+		8064404125A64FE4000467D4 /* MemoryDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoryDataSource.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		80A46F86250EEC5700E82968 /* Frameworks */ = {
+		8064401925A642F4000467D4 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -45,36 +45,36 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		80A46F80250EEC5700E82968 = {
+		8064401325A642F4000467D4 = {
 			isa = PBXGroup;
 			children = (
-				80A46F8B250EEC5700E82968 /* Memorize */,
-				80A46F8A250EEC5700E82968 /* Products */,
+				8064401E25A642F5000467D4 /* Memorize */,
+				8064401D25A642F5000467D4 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		80A46F8A250EEC5700E82968 /* Products */ = {
+		8064401D25A642F5000467D4 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				80A46F89250EEC5700E82968 /* Memorize.app */,
+				8064401C25A642F5000467D4 /* Memorize.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		80A46F8B250EEC5700E82968 /* Memorize */ = {
+		8064401E25A642F5000467D4 /* Memorize */ = {
 			isa = PBXGroup;
 			children = (
-				80A46FA2250EF37500E82968 /* MemoryItems.json */,
-				80A46F8C250EEC5700E82968 /* AppDelegate.swift */,
-				80A46F8E250EEC5700E82968 /* SceneDelegate.swift */,
-				80A46F90250EEC5700E82968 /* ViewController.swift */,
-				80A46F92250EEC5700E82968 /* Main.storyboard */,
-				80A46F95250EEC5900E82968 /* Assets.xcassets */,
-				80A46F97250EEC5900E82968 /* LaunchScreen.storyboard */,
-				80A46F9A250EEC5900E82968 /* Info.plist */,
-				80A46FA0250EF0F500E82968 /* MemoryItem.swift */,
-				80A46FA4250EFD7900E82968 /* MemoryViewController.swift */,
-				80A46FA6250F026600E82968 /* MemoryDataSource.swift */,
+				8064403B25A64522000467D4 /* MemoryItems.json */,
+				8064401F25A642F5000467D4 /* AppDelegate.swift */,
+				8064402125A642F5000467D4 /* SceneDelegate.swift */,
+				8064402325A642F5000467D4 /* ViewController.swift */,
+				8064402525A642F5000467D4 /* Main.storyboard */,
+				8064402825A642F5000467D4 /* Assets.xcassets */,
+				8064402A25A642F5000467D4 /* LaunchScreen.storyboard */,
+				8064402D25A642F5000467D4 /* Info.plist */,
+				8064403425A64457000467D4 /* MemoryItem.swift */,
+				8064403E25A64669000467D4 /* MemoryViewController.swift */,
+				8064404125A64FE4000467D4 /* MemoryDataSource.swift */,
 			);
 			path = Memorize;
 			sourceTree = "<group>";
@@ -82,13 +82,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		80A46F88250EEC5700E82968 /* Memorize */ = {
+		8064401B25A642F4000467D4 /* Memorize */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 80A46F9D250EEC5900E82968 /* Build configuration list for PBXNativeTarget "Memorize" */;
+			buildConfigurationList = 8064403025A642F5000467D4 /* Build configuration list for PBXNativeTarget "Memorize" */;
 			buildPhases = (
-				80A46F85250EEC5700E82968 /* Sources */,
-				80A46F86250EEC5700E82968 /* Frameworks */,
-				80A46F87250EEC5700E82968 /* Resources */,
+				8064401825A642F4000467D4 /* Sources */,
+				8064401925A642F4000467D4 /* Frameworks */,
+				8064401A25A642F4000467D4 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -96,25 +96,24 @@
 			);
 			name = Memorize;
 			productName = Memorize;
-			productReference = 80A46F89250EEC5700E82968 /* Memorize.app */;
+			productReference = 8064401C25A642F5000467D4 /* Memorize.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		80A46F81250EEC5700E82968 /* Project object */ = {
+		8064401425A642F4000467D4 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1140;
-				LastUpgradeCheck = 1140;
-				ORGANIZATIONNAME = "Umair Saeed";
+				LastSwiftUpdateCheck = 1220;
+				LastUpgradeCheck = 1220;
 				TargetAttributes = {
-					80A46F88250EEC5700E82968 = {
-						CreatedOnToolsVersion = 11.4;
+					8064401B25A642F4000467D4 = {
+						CreatedOnToolsVersion = 12.2;
 					};
 				};
 			};
-			buildConfigurationList = 80A46F84250EEC5700E82968 /* Build configuration list for PBXProject "Memorize" */;
+			buildConfigurationList = 8064401725A642F4000467D4 /* Build configuration list for PBXProject "Memorize" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -122,59 +121,59 @@
 				en,
 				Base,
 			);
-			mainGroup = 80A46F80250EEC5700E82968;
-			productRefGroup = 80A46F8A250EEC5700E82968 /* Products */;
+			mainGroup = 8064401325A642F4000467D4;
+			productRefGroup = 8064401D25A642F5000467D4 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				80A46F88250EEC5700E82968 /* Memorize */,
+				8064401B25A642F4000467D4 /* Memorize */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		80A46F87250EEC5700E82968 /* Resources */ = {
+		8064401A25A642F4000467D4 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				80A46F99250EEC5900E82968 /* LaunchScreen.storyboard in Resources */,
-				80A46F96250EEC5900E82968 /* Assets.xcassets in Resources */,
-				80A46F94250EEC5700E82968 /* Main.storyboard in Resources */,
-				80A46FA3250EF37600E82968 /* MemoryItems.json in Resources */,
+				8064402C25A642F5000467D4 /* LaunchScreen.storyboard in Resources */,
+				8064402925A642F5000467D4 /* Assets.xcassets in Resources */,
+				8064402725A642F5000467D4 /* Main.storyboard in Resources */,
+				8064403C25A64522000467D4 /* MemoryItems.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		80A46F85250EEC5700E82968 /* Sources */ = {
+		8064401825A642F4000467D4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				80A46F91250EEC5700E82968 /* ViewController.swift in Sources */,
-				80A46FA7250F026600E82968 /* MemoryDataSource.swift in Sources */,
-				80A46F8D250EEC5700E82968 /* AppDelegate.swift in Sources */,
-				80A46F8F250EEC5700E82968 /* SceneDelegate.swift in Sources */,
-				80A46FA1250EF0F500E82968 /* MemoryItem.swift in Sources */,
-				80A46FA5250EFD7900E82968 /* MemoryViewController.swift in Sources */,
+				8064402425A642F5000467D4 /* ViewController.swift in Sources */,
+				8064404225A64FE4000467D4 /* MemoryDataSource.swift in Sources */,
+				8064402025A642F5000467D4 /* AppDelegate.swift in Sources */,
+				8064402225A642F5000467D4 /* SceneDelegate.swift in Sources */,
+				8064403525A64457000467D4 /* MemoryItem.swift in Sources */,
+				8064403F25A64669000467D4 /* MemoryViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		80A46F92250EEC5700E82968 /* Main.storyboard */ = {
+		8064402525A642F5000467D4 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				80A46F93250EEC5700E82968 /* Base */,
+				8064402625A642F5000467D4 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		80A46F97250EEC5900E82968 /* LaunchScreen.storyboard */ = {
+		8064402A25A642F5000467D4 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				80A46F98250EEC5900E82968 /* Base */,
+				8064402B25A642F5000467D4 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -182,7 +181,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		80A46F9B250EEC5900E82968 /* Debug */ = {
+		8064402E25A642F5000467D4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -208,6 +207,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -232,7 +232,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -242,7 +242,7 @@
 			};
 			name = Debug;
 		};
-		80A46F9C250EEC5900E82968 /* Release */ = {
+		8064402F25A642F5000467D4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -268,6 +268,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -286,7 +287,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -296,10 +297,11 @@
 			};
 			name = Release;
 		};
-		80A46F9E250EEC5900E82968 /* Debug */ = {
+		8064403125A642F5000467D4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = Memorize/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -313,10 +315,11 @@
 			};
 			name = Debug;
 		};
-		80A46F9F250EEC5900E82968 /* Release */ = {
+		8064403225A642F5000467D4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = Memorize/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -333,25 +336,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		80A46F84250EEC5700E82968 /* Build configuration list for PBXProject "Memorize" */ = {
+		8064401725A642F4000467D4 /* Build configuration list for PBXProject "Memorize" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				80A46F9B250EEC5900E82968 /* Debug */,
-				80A46F9C250EEC5900E82968 /* Release */,
+				8064402E25A642F5000467D4 /* Debug */,
+				8064402F25A642F5000467D4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		80A46F9D250EEC5900E82968 /* Build configuration list for PBXNativeTarget "Memorize" */ = {
+		8064403025A642F5000467D4 /* Build configuration list for PBXNativeTarget "Memorize" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				80A46F9E250EEC5900E82968 /* Debug */,
-				80A46F9F250EEC5900E82968 /* Release */,
+				8064403125A642F5000467D4 /* Debug */,
+				8064403225A642F5000467D4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 80A46F81250EEC5700E82968 /* Project object */;
+	rootObject = 8064401425A642F4000467D4 /* Project object */;
 }

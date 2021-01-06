@@ -2,21 +2,21 @@ import UIKit
 
 class ViewController: UITableViewController {
 
-  let dataSource = MemoryDataSource()
+  private let dataSource = MemoryDataSource()
 
   override func viewDidLoad() {
     super.viewDidLoad()
+
     tableView.dataSource = dataSource
   }
 
-  // MARK: UITableViewController
-
+  // MARK: - TableView
 
   override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
     guard let vc = storyboard?.instantiateViewController(
-      identifier: MemoryViewController.storyboardIdentifier) as? MemoryViewController
+            withIdentifier: MemoryViewController.storyboardIdentifier) as? MemoryViewController
     else {
-      return
+      fatalError("Unable to instantiate memory view controller")
     }
 
     vc.item = dataSource.item(at: indexPath.row)
